@@ -1,6 +1,6 @@
 # CapistranoUsers
 
-TODO: Write a gem description
+Recipies allow to manage groups of deploy user.
 
 ## Installation
 
@@ -18,12 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+The following tasks are supported:
 
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+```
+cap users:add_to_group          # Add user to group, 'cap users:add_to_group GROUP=developers'.
+cap users:groups                # Get groups that deploy user belongs to
+cap users:remove_from_group     # Remove user from group, 'cap users:remove_from_group GROUP=developers'
+```
