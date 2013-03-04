@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = CapistranoUsers::VERSION
   gem.authors       = ["Kalys Osmonov"]
   gem.email         = ["kalys@osmonov.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Gem contains capistrano recipies for managing groups.}
+  gem.summary       = %q{The following tasks are supported: cap users:add_to_group, cap users:groups, cap users:remove_from_group.}
+  gem.homepage      = "https://github.com/kalys/capistrano_users"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
