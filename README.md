@@ -15,6 +15,10 @@ And then execute:
 Or install it yourself as:
 
     $ gem install capistrano_users
+    
+Then add this line in your ```config/deploy.rb```
+
+    require 'capistrano_users' 
 
 ## Usage
 
